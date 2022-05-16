@@ -2,8 +2,10 @@ package com.example.spring.basics.componentscan;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+//@Component
+@Repository // Getting the data from the data layer
 //@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class ComponentDAO {
     @Autowired

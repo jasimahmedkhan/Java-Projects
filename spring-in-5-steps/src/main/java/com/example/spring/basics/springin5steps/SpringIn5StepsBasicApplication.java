@@ -7,10 +7,12 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 //@SpringBootApplication
 @Configuration
 @ComponentScan
+//@PropertySource("classpath:app.properties")
 public class SpringIn5StepsBasicApplication {
 
 
@@ -25,10 +27,16 @@ public class SpringIn5StepsBasicApplication {
             // getting the beam from the application context container
             BinarySearchImpl binarySearch_1 = applicationContext.getBean(BinarySearchImpl.class);
             BinarySearchImpl binarySearch_2 = applicationContext.getBean(BinarySearchImpl.class);
+
+//            SomeExternalService someExternalService = applicationContext.getBean(SomeExternalService.class);
+//            System.out.println("spring URL = " + someExternalService.returnServiceSpringUrl());
+
             System.out.println("binarySearch_1 : " + binarySearch_1);
             System.out.println("binarySearch_2 : " + binarySearch_2);
             int result = binarySearch_1.binarySearch(new int[] {12, 4, 6, 7}, 4);
             System.out.println("the result = " + result);
+
+
 
         }
 
