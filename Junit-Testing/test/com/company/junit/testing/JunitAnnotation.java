@@ -2,6 +2,7 @@ package com.company.junit.testing;
 
 import org.junit.*;
 
+// For Manually adding the JunitCore Runner for running all the tests in JUnit4
 public class JunitAnnotation {
 
     //execute before class

@@ -12,6 +12,7 @@ public class Main {
 //        MyMath math = new MyMath();
 //        System.out.println(math.sum(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9}));
 
+        // For Manually adding the JunitCore Runner for running all the tests in Junit 4
         Result result = JUnitCore.runClasses(JunitAnnotation.class);
 
         for (Failure failure: result.getFailures()){
