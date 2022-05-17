@@ -12,14 +12,13 @@ public class Main {
 //        MyMath math = new MyMath();
 //        System.out.println(math.sum(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9}));
 
-        Result result = JUnitCore.runClasses(MyMathTest.class);
+        Result result = JUnitCore.runClasses(JunitAnnotation.class);
 
         for (Failure failure: result.getFailures()){
             System.out.println(failure.toString());
         }
 
-        System.out.println(result.wasSuccessful());
-
+        System.out.println("the test are successful = " + result.wasSuccessful());
 
     }
 }
