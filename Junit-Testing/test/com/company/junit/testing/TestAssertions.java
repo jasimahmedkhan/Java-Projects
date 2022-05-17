@@ -4,7 +4,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import static org.junit.Assert.*;
 
-
 // For using Junit4 for unit testing
 //@RunWith(JUnitPlatform.class) // you have to import this dependency in Maven for the Runner to function.
 
