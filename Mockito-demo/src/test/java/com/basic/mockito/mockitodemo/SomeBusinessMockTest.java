@@ -12,7 +12,7 @@ import static org.mockito.Mockito.when;
 //
 
 public class SomeBusinessMockTest {
-
+ 
     @Test
     public void testFindTheGreatestFromAllData(){
 
