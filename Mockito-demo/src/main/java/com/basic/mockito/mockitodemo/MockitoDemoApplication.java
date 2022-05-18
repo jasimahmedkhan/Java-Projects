@@ -11,9 +11,9 @@ public class MockitoDemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(MockitoDemoApplication.class, args);
 
-//        SomeBusinessImpl someBusiness = new SomeBusinessImpl();
-//        int result = someBusiness.findTheGreatestFromAllData();
-//        System.out.println("result" + result);
+        SomeBusinessShoeImpl someBusinessShoe = new SomeBusinessShoeImpl(new Nike());
+        int result = someBusinessShoe.retrieveShoeNumber();
+        System.out.println("result " + result);
 
     }
 
