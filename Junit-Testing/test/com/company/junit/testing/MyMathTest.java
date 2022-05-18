@@ -20,7 +20,9 @@ public class MyMathTest {
     *   https://blog.jetbrains.com/idea/2020/08/migrating-from-junit-4-to-junit-5/
     *   https://stackoverflow.com/questions/10580613/after-before-not-working-in-testcase
     *   https://howtodoinjava.com/junit5/before-all-annotation-example/
-    * https://www.tutorialspoint.com/junit/junit_using_assertion.htm
+    *   https://www.tutorialspoint.com/junit/junit_using_assertion.htm
+    *   https://www.guru99.com/junit-assert.html
+    *   https://junit.org/junit4/javadoc/4.8/org/junit/Assert.html
     *
     * */
 

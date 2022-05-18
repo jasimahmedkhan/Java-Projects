@@ -13,6 +13,7 @@ public class SomeBusinessShoeImpl {
         System.out.println("the best shoe = " + shoeTypes[4]);
         return shoeTypes[4];
     }
+    
 
     public int retrieveShoeNumber(){
         int numberOfShoes = dataServiceShoes.returnNumberOfShoes();
