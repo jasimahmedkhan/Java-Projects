@@ -1,35 +1,23 @@
 package com.spring.database.databasedemo.entity;
 
-import javax.persistence.*;
 import java.util.Date;
 
+// rename it to Person for using it with the Spring JDBC API
+public class Person {
 
-@Entity
-public class PersonJDBC {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id", nullable = false)
     private int id;
-
     private String name;
     private String location;
     private Date birth_date;
 
     // No argument constructor is required for the case if there is no constructor present
     // Java's fail-safe way.
-    public PersonJDBC() {
+    public Person() {
 
     }
 
-    public PersonJDBC(int id, String name, String location, Date birth_date) {
+    public Person(int id, String name, String location, Date birth_date) {
         this.id = id;
-        this.name = name;
-        this.location = location;
-        this.birth_date = birth_date;
-    }
-
-    public PersonJDBC(String name, String location, Date birth_date) {
         this.name = name;
         this.location = location;
         this.birth_date = birth_date;
