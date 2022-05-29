@@ -1,10 +1,8 @@
-package com.company.basics;
+package com.company.basics.lambdaexp;
 
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.util.Comparator;
 
-public class Main {
+public class LambdaMain {
 
     static String thirdText = "hey, how are you !!";
 

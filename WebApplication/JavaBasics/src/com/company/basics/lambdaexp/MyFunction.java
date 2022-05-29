@@ -1,4 +1,4 @@
-package com.company.basics;
+package com.company.basics.lambdaexp;
 
 public interface MyFunction {
 
