@@ -5,7 +5,9 @@ import java.util.Date;
 
 
 @Entity
-public class PersonJDBC {
+// for call and retrieving the named query
+@NamedQuery(name="find_all_persons", query = "select p from Person p")
+public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -18,18 +20,18 @@ public class PersonJDBC {
 
     // No argument constructor is required for the case if there is no constructor present
     // Java's fail-safe way.
-    public PersonJDBC() {
+    public Person() {
 
     }
 
-    public PersonJDBC(int id, String name, String location, Date birth_date) {
+    public Person(int id, String name, String location, Date birth_date) {
         this.id = id;
         this.name = name;
         this.location = location;
         this.birth_date = birth_date;
     }
 
-    public PersonJDBC(String name, String location, Date birth_date) {
+    public Person(String name, String location, Date birth_date) {
         this.name = name;
         this.location = location;
         this.birth_date = birth_date;

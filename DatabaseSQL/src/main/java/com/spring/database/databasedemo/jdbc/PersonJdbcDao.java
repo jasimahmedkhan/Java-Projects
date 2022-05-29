@@ -1,7 +1,7 @@
 package com.spring.database.databasedemo.jdbc;
 
 
-import com.spring.database.databasedemo.entity.Person;
+import com.spring.database.databasedemo.entity.PersonJDBC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -10,8 +10,6 @@ import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Timestamp;
-import java.util.Date;
 import java.util.List;
 
 @Repository
@@ -22,11 +20,11 @@ public class PersonJdbcDao {
 
 
     // for creating your own custom row mapper, if the data input is out of order
-    class PersonRowMapper implements RowMapper<Person>{
+    class PersonRowMapper implements RowMapper<PersonJDBC>{
 
         @Override
-        public Person mapRow(ResultSet rs, int rowNum) throws SQLException {
-            Person person = new Person();
+        public PersonJDBC mapRow(ResultSet rs, int rowNum) throws SQLException {
+            PersonJDBC person = new PersonJDBC();
             person.setId(rs.getInt("id"));
             person.setName(rs.getString("name"));
             person.setLocation(rs.getString("location"));
@@ -36,7 +34,7 @@ public class PersonJdbcDao {
     }
 
     // for using the custom row mapper
-    public List<Person> findAll(){
+    public List<PersonJDBC> findAll(){
         return jdbcTemplate.query("select * from person", new PersonRowMapper());
     }
 
@@ -47,23 +45,23 @@ public class PersonJdbcDao {
 
 
 
-    public Person findById(int id){
+    public PersonJDBC findById(int id){
         return jdbcTemplate.queryForObject("select * from person where ID=?",
                 new Object[]{id},
-                new BeanPropertyRowMapper<Person>(Person.class));
+                new BeanPropertyRowMapper<PersonJDBC>(PersonJDBC.class));
     }
 
 
-    public Person findByName(String name){
+    public PersonJDBC findByName(String name){
         return jdbcTemplate.queryForObject("select * from person where NAME=?",
                 new Object[]{name},
-                new BeanPropertyRowMapper<>(Person.class));
+                new BeanPropertyRowMapper<>(PersonJDBC.class));
     }
 
-    public Person findByNameAndId(String name, int id){
+    public PersonJDBC findByNameAndId(String name, int id){
         return jdbcTemplate.queryForObject("select * from person where NAME=? and ID=?",
                 new Object[]{name, id},
-                new BeanPropertyRowMapper<>(Person.class));
+                new BeanPropertyRowMapper<>(PersonJDBC.class));
     }
 
     public int deleteById(int id){
@@ -72,7 +70,7 @@ public class PersonJdbcDao {
     }
 
     // Insert
-    public int  insert(Person person){
+    public int  insert(PersonJDBC person){
         return jdbcTemplate.update(
                 "insert into person (id, name, location, birth_date)" +
                         "values (?,?,?,?)",
@@ -81,7 +79,7 @@ public class PersonJdbcDao {
     }
 
     // Update
-    public int update(Person person){
+    public int update(PersonJDBC person){
         return jdbcTemplate.update(
                 "update person " + " set name = ?, location = ?, birth_date = ?" + "where id = ?",
                 new Object[] { person.getName(),

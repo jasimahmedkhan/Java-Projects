@@ -3,7 +3,7 @@ package com.spring.database.databasedemo.entity;
 import java.util.Date;
 
 // rename it to Person for using it with the Spring JDBC API
-public class Person {
+public class PersonJDBC {
 
     private int id;
     private String name;
@@ -12,11 +12,11 @@ public class Person {
 
     // No argument constructor is required for the case if there is no constructor present
     // Java's fail-safe way.
-    public Person() {
+    public PersonJDBC() {
 
     }
 
-    public Person(int id, String name, String location, Date birth_date) {
+    public PersonJDBC(int id, String name, String location, Date birth_date) {
         this.id = id;
         this.name = name;
         this.location = location;

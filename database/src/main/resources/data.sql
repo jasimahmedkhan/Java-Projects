@@ -1,4 +1,4 @@
-create table person
+create table PERSON
     (
         id integer not null,
         name varchar(255) not null,
@@ -7,7 +7,7 @@ create table person
         primary key (id)
 );
 
-create table officials
+create table OFFICIALS
     (
         id integer not null,
         name varchar(255) not null,
