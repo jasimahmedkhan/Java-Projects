@@ -3,16 +3,8 @@
     <title> Yahoo !!</title>
 </head>
 <body>
-<form method="post">
-    Name:
-    <label>
-        <input type="text" name="name" />
-    </label>
-    Password:
-    <label>
-        <input type="password" name="password" />
-    </label>
-    <input type="submit" />
+<form method="get">
+    Welcome !!! ${name} !!! <a href="list-todos"> Click here </a> to manage your todos  !!!
 </form>
 
 <%--My First JSP!! Welcome ${name} !!--%>
