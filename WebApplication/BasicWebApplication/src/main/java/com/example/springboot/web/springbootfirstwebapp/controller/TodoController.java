@@ -1,6 +1,5 @@
 package com.example.springboot.web.springbootfirstwebapp.controller;
 
-import com.example.springboot.web.springbootfirstwebapp.service.LoginService;
 import com.example.springboot.web.springbootfirstwebapp.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -9,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
+
+import java.util.Date;
 
 @Controller
 @SessionAttributes("name")
@@ -26,4 +27,16 @@ public class TodoController {
         return "list-todos";
     }
 
+    @RequestMapping(value = "/add-todo", method = RequestMethod.GET)
+    public String showAddTodoPage(ModelMap model){
+        return "todo";
+    }
+
+    @RequestMapping(value = "/add-todo", method = RequestMethod.POST)
+    public String addTodo(ModelMap model, @RequestParam String desc){
+        service.addTodo((String)model.get("name"), desc, new Date(), false);
+//        model.put("todos", service.retreiveTodos((String) model.get("name")));
+        // instead to redirect: /web-url
+        return "redirect:/list-todos";
+    }
 }

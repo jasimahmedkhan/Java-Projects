@@ -3,7 +3,6 @@ package com.example.springboot.web.springbootfirstwebapp.model;
 import java.util.Date;
 
 public class Todo {
-
     private long id;
     private String user;
     private String desc;
