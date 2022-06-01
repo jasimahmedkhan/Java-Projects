@@ -37,7 +37,7 @@ public class TodoService {
         todos.add(new Todo(++todoCount, name, desc, date, isDone));
     }
 
-    public void deleteTodo(int id){
+    public void deleteTodo(long id){
         Iterator<Todo> iterator = todos.iterator();
         while(iterator.hasNext()){
             Todo todo = iterator.next();
