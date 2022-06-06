@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title> List Todos for ${name}!!</title>
+    <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<div class="container py-5">
+<form method="get">
+    <div class="row">
+        <div class="col-10 mx-auto">
+            <h1>File Upload Status</h1>
+            <!--display error if any-->
+            <div class="alert alert-danger" role="alert" th:if="${!status}">
+                <strong>Error:</strong>
+                <span th:text="${message}"></span>
+            </div>
+
+            <!--display Schedule columns -->
+            <table class="table table-striped" th:if="${status}">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">id</th>
+                    <th scope="col">schedule_id</th>
+                    <th scope="col">timestamp_start</th>
+                    <th scope="col">timestamp_end</th>
+                    <th scope="col">power_value</th>
+                    <th scope="col">power_unit</th>
+                    <th scope="col">power_direction</th>
+                    <th scope="col">power_constraint</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="record, i : ${schedule}">
+                    <th scope="row" th:text="${i.index + 1}"></th>
+                    <td th:text="${schedule.id}"></td>
+                    <td th:text="${schedule.schedule_id}"></td>
+                    <td th:text="${schedule.timestamp_start}"></td>
+                    <td th:text="${schedule.timestamp_end}"></td>
+                    <td th:text="${schedule.power_value}"></td>
+                    <td th:text="${schedule.power_unit}"></td>
+                    <td th:text="${schedule.power_direction}"></td>
+                    <td th:text="${schedule.power_constraint}"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</form>
+</div>
+
+<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+</body>
+
+
+</html>

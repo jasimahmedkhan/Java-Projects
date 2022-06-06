@@ -1,0 +1,31 @@
+<!--<html xmlns:th="http://www.w3.org/1999/xhtml">-->
+<html>
+
+<head>
+    <title upload CSV !!!></title>
+    <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div>
+
+    <H3> Your are viewing the root page </H3>
+    <form method="POST" th:action="@{/upload-csv-file}" enctype="multipart/form-data">
+        <div class="form-group mt-3">
+            <label for="file">Select a CSV file</label>
+            <input type="file" name="file" class="form-control-file" id="file" accept=".csv">
+        </div>
+        <button type="submit" class="btn btn-primary">Import Schedule</button>
+    </form>
+
+
+</div>
+
+<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+
+
+</html>
