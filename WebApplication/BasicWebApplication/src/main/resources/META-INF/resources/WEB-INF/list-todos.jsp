@@ -15,7 +15,6 @@
         <table class="table table-striped" >
             <thead>
             <tr>
-
                 <th>ID</th>
                 <th>Description</th>
                 <th>Target Date </th>
@@ -37,12 +36,11 @@
 
             </tbody>
 
-
         </table>
 
     <%--    ${todos} !!--%>
         <BR>
-        <div>
+        <div class="container">
             <a  type="button" class="btn" href="/add-todo" >Add a Todo</a>
         </div>
 

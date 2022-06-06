@@ -20,7 +20,6 @@ public class TodoController {
 
 
     @RequestMapping(value = "/list-todos", method = RequestMethod.GET)
-//    @ResponseBody
     public String showTodoList(ModelMap model){
         String name = (String) model.get("name");
         model.put("todos", service.retreiveTodos(name));
@@ -40,7 +39,7 @@ public class TodoController {
 
 
     @RequestMapping(value = "/add-todo", method = RequestMethod.POST)
-    public String addTodo(ModelMap model, @RequestParam String desc){
+    public String addTodo(ModelMap model, Todo todo){
         service.addTodo((String)model.get("name"), desc, new Date(), false);
 //        model.put("todos", service.retreiveTodos((String) model.get("name")));
         // instead to redirect: /web-url
