@@ -1,4 +1,4 @@
-package com.coneva.model.flexestimation;
+package com.example.coneva.csvjsonmapper;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 import com.google.common.base.CaseFormat;

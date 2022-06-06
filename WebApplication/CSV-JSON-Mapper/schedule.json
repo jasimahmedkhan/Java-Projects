@@ -1,0 +1,865 @@
+[ {
+  "id" : 129763,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-10 22:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-10 22:15:00.000000 +00:00",
+  "power_value" : 222.53595,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129764,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-10 22:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-10 22:30:00.000000 +00:00",
+  "power_value" : 7.9477115,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129765,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-10 22:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-10 22:45:00.000000 +00:00",
+  "power_value" : 75.503265,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129766,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-10 22:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-10 23:00:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129767,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-10 23:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-10 23:15:00.000000 +00:00",
+  "power_value" : 147.03268,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129768,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-10 23:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-10 23:30:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129769,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-10 23:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-10 23:45:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129770,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-10 23:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 00:00:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129771,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 00:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 00:15:00.000000 +00:00",
+  "power_value" : 147.03268,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129772,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 00:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 00:30:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129773,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 00:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 00:45:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129774,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 00:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 01:00:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129775,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 01:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 01:15:00.000000 +00:00",
+  "power_value" : 723.2419,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129776,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 01:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 01:30:00.000000 +00:00",
+  "power_value" : 651.71246,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129777,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 01:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 01:45:00.000000 +00:00",
+  "power_value" : 719.268,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129778,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 01:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 02:00:00.000000 +00:00",
+  "power_value" : 723.2419,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129779,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 02:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 02:15:00.000000 +00:00",
+  "power_value" : 719.268,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129780,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 02:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 02:30:00.000000 +00:00",
+  "power_value" : 719.268,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129781,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 02:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 02:45:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129782,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 02:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 03:00:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129783,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 03:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 03:15:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129784,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 03:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 03:30:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129785,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 03:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 03:45:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129786,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 03:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 04:00:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129787,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 04:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 04:15:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129788,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 04:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 04:30:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129789,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 04:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 04:45:00.000000 +00:00",
+  "power_value" : 7.9477115,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129790,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 04:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 05:00:00.000000 +00:00",
+  "power_value" : 75.503265,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129791,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 05:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 05:15:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129792,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 05:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 05:30:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129793,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 05:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 05:45:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129794,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 05:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 06:00:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129795,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 06:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 06:15:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129796,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 06:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 06:30:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129797,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 06:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 06:45:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129798,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 06:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 07:00:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129799,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 07:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 07:15:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129800,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 07:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 07:30:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129801,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 07:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 07:45:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129802,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 07:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 08:00:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129803,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 08:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 08:15:00.000000 +00:00",
+  "power_value" : 862.32684,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129804,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 08:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 08:30:00.000000 +00:00",
+  "power_value" : 1005.3856,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129805,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 08:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 08:45:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129806,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 08:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 09:00:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129807,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 09:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 09:15:00.000000 +00:00",
+  "power_value" : 1009.3595,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129808,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 09:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 09:30:00.000000 +00:00",
+  "power_value" : 1009.3595,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129809,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 09:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 09:45:00.000000 +00:00",
+  "power_value" : 75.503265,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129810,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 09:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 10:00:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129811,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 10:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 10:15:00.000000 +00:00",
+  "power_value" : 1005.3856,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129812,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 10:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 10:30:00.000000 +00:00",
+  "power_value" : 1005.3856,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129813,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 10:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 10:45:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129814,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 10:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 11:00:00.000000 +00:00",
+  "power_value" : 3.9738557,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129815,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 11:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 11:15:00.000000 +00:00",
+  "power_value" : 794.77124,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129816,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 11:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 11:30:00.000000 +00:00",
+  "power_value" : 723.2419,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129817,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 11:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 11:45:00.000000 +00:00",
+  "power_value" : 1009.3595,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129818,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 11:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 12:00:00.000000 +00:00",
+  "power_value" : 937.8301,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129819,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 12:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 12:15:00.000000 +00:00",
+  "power_value" : 1156.3922,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129820,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 12:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 12:30:00.000000 +00:00",
+  "power_value" : 1227.9216,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129821,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 12:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 12:45:00.000000 +00:00",
+  "power_value" : 1156.3922,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129822,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 12:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 13:00:00.000000 +00:00",
+  "power_value" : 1156.3922,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129823,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 13:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 13:15:00.000000 +00:00",
+  "power_value" : 933.8562,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129824,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 13:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 13:30:00.000000 +00:00",
+  "power_value" : 1009.3595,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129825,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 13:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 13:45:00.000000 +00:00",
+  "power_value" : 437.12418,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129826,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 13:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 14:00:00.000000 +00:00",
+  "power_value" : 508.6536,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129827,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 14:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 14:15:00.000000 +00:00",
+  "power_value" : 576.20917,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129828,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 14:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 14:30:00.000000 +00:00",
+  "power_value" : 592.10455,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129829,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 14:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 14:45:00.000000 +00:00",
+  "power_value" : 580.18304,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129830,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 14:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 15:00:00.000000 +00:00",
+  "power_value" : 433.15033,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129831,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 15:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 15:15:00.000000 +00:00",
+  "power_value" : 655.6862,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129832,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 15:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 15:30:00.000000 +00:00",
+  "power_value" : 433.15033,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129833,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 15:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 15:45:00.000000 +00:00",
+  "power_value" : 576.20917,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129834,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 15:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 16:00:00.000000 +00:00",
+  "power_value" : 580.18304,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129835,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 16:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 16:15:00.000000 +00:00",
+  "power_value" : 576.20917,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129836,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 16:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 16:30:00.000000 +00:00",
+  "power_value" : 508.6536,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129837,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 16:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 16:45:00.000000 +00:00",
+  "power_value" : 71.52941,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129838,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 16:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 17:00:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129839,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 17:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 17:15:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129840,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 17:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 17:30:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129841,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 17:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 17:45:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129842,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 17:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 18:00:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129843,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 18:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 18:15:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129844,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 18:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 18:30:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129845,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 18:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 18:45:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129846,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 18:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 19:00:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129847,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 19:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 19:15:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129848,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 19:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 19:30:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129849,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 19:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 19:45:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129850,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 19:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 20:00:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129851,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 20:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 20:15:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129852,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 20:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 20:30:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129853,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 20:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 20:45:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129854,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 20:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 21:00:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129855,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 21:00:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 21:15:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129856,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 21:15:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 21:30:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129857,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 21:30:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 21:45:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+}, {
+  "id" : 129858,
+  "schedule_id" : 1367,
+  "timestamp_start" : "2022-05-11 21:45:00.000000 +00:00",
+  "timestamp_end" : "2022-05-11 22:00:00.000000 +00:00",
+  "power_value" : 0.0,
+  "power_unit" : "kW",
+  "power_direction" : "Consumption",
+  "power_constraint" : "Equal"
+} ]

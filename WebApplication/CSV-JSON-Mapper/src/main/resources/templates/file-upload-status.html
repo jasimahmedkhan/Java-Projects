@@ -1,7 +1,8 @@
-<html>
-<head>
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head lang="en">
     <title> List Todos for ${name}!!</title>
-    <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<!--    <link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">-->
 
 </head>
 
@@ -19,11 +20,13 @@
                 <span th:text="${message}"></span>
             </div>
 
-            <!--display Schedule columns -->
+<!--            display Schedule columns-->
             <table class="table table-striped" th:if="${status}">
+            <table class="table table-striped">
+
                 <thead>
                 <tr>
-                    <th scope="col">#</th>
+<!--                    <th scope="col">#</th>-->
                     <th scope="col">id</th>
                     <th scope="col">schedule_id</th>
                     <th scope="col">timestamp_start</th>
@@ -36,15 +39,15 @@
                 </thead>
                 <tbody>
                 <tr th:each="record, i : ${schedule}">
-                    <th scope="row" th:text="${i.index + 1}"></th>
-                    <td th:text="${schedule.id}"></td>
-                    <td th:text="${schedule.schedule_id}"></td>
-                    <td th:text="${schedule.timestamp_start}"></td>
-                    <td th:text="${schedule.timestamp_end}"></td>
-                    <td th:text="${schedule.power_value}"></td>
-                    <td th:text="${schedule.power_unit}"></td>
-                    <td th:text="${schedule.power_direction}"></td>
-                    <td th:text="${schedule.power_constraint}"></td>
+<!--                    <th scope="row" th:text="${i.index + 1}"></th>-->
+                    <td th:text="${record.id}"></td>
+                    <td th:text="${record.schedule_id}"></td>
+                    <td th:text="${record.timestamp_start}"></td>
+                    <td th:text="${record.timestamp_end}"></td>
+                    <td th:text="${record.power_value}"></td>
+                    <td th:text="${record.power_unit}"></td>
+                    <td th:text="${record.power_direction}"></td>
+                    <td th:text="${record.power_constraint}"></td>
                 </tr>
                 </tbody>
             </table>
