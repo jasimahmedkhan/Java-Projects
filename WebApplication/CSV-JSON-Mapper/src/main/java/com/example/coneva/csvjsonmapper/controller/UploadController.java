@@ -31,6 +31,8 @@ public class UploadController {
     @Autowired
     JsonService jsonService;
 
+
+
 //    @GetMapping("/")
     @RequestMapping(value = "/", method = RequestMethod.GET)
     //    @ResponseBody
@@ -80,12 +82,12 @@ public class UploadController {
 
                 // Logging the values
                 logger.info("printing the first one");
-                logger.info(schedule.get(0).getTimestamp_start());
+                logger.info(schedule.get(0).getTimestamp_start().toString());
 //                logger.info(String.valueOf(OffsetDateTime.of(LocalDateTime.parse(schedule.get(0).getTimestamp_start(),
 //                        DateTimeFormatter.ISO_DATE_TIME), ZoneOffset.UTC)));
 
                 // update the JsonService schedules
-                jsonService.updateSchedule(schedule);
+                jsonService.setSchedule(schedule);
 
 
             } catch (IOException e) {

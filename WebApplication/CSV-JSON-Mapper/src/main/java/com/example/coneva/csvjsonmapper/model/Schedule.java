@@ -1,7 +1,19 @@
 package com.example.coneva.csvjsonmapper.model;
+import com.example.coneva.csvjsonmapper.utils.JacksonOffsetDateTimeMapper;
+import com.example.coneva.csvjsonmapper.utils.OffsetDateTimeConverter;
+import com.example.coneva.csvjsonmapper.utils.ZoneDateTimeConverter;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
+import com.fasterxml.jackson.datatype.jsr310.ser.OffsetDateTimeSerializer;
 import com.opencsv.bean.CsvBindByName;
+import com.opencsv.bean.CsvCustomBindByName;
 import com.opencsv.bean.CsvDate;
 import com.opencsv.bean.CsvDates;
+
+import java.time.OffsetDateTime;
 
 public class Schedule {
 
@@ -45,9 +57,11 @@ public class Schedule {
 
     // attributes of the class entity
 
+    @JsonProperty("id")
     @CsvBindByName
     private long id;
 
+    @JsonProperty("schedule_id")
     @CsvBindByName
     private long schedule_id;
 
@@ -60,30 +74,42 @@ public class Schedule {
 
 
 //    @CsvDate(value = "yyyy-MM-dd HH:mm:ss.SZ")
-//    @CsvCustomBindByName (column = "timestamp_start", converter = ZoneDateTimeConverter.class)
-    @CsvBindByName
-    private String timestamp_start;
+
+    @JsonSerialize(using = OffsetDateTimeSerializer.class)
+    @JsonProperty("timestamp_start")
+    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSSSSZZZZZ")
+    @CsvCustomBindByName (column = "timestamp_start", converter = OffsetDateTimeConverter.class)
+//    @CsvBindByName
+    private OffsetDateTime timestamp_start;
 
 //    @CsvDate(value = "yyyy-MM-dd HH:mm:ss.SZ")
-//    @CsvCustomBindByName (column = "timestamp_end", converter = ZoneDateTimeConverter.class)
-    @CsvBindByName
-    private String timestamp_end;
+//    @CsvBindByName
+//    @JsonDeserialize(using = JacksonOffsetDateTimeMapper)
+    @JsonSerialize(using = OffsetDateTimeSerializer.class)
+    @JsonProperty("timestamp_end")
+    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSSSSZZZZZ")
+    @CsvCustomBindByName(column = "timestamp_end", converter = OffsetDateTimeConverter.class)
+    private OffsetDateTime timestamp_end;
 
+    @JsonProperty("power_value")
     @CsvBindByName
     private Double power_value;
 
+    @JsonProperty("power_unit")
     @CsvBindByName
     private String power_unit;
 
+    @JsonProperty("power_direction")
     @CsvBindByName
     private String power_direction;
 
+    @JsonProperty("power_constraint")
     @CsvBindByName
     private String power_constraint;
 
 
-    public Schedule(long id, long schedule_id, String timestamp_start,
-                    String timestamp_end, Double power_value,
+    public Schedule(long id, long schedule_id, OffsetDateTime timestamp_start,
+                    OffsetDateTime timestamp_end, Double power_value,
                     String power_unit, String power_direction, String power_constraint) {
 
         this.id = id;
@@ -116,19 +142,19 @@ public class Schedule {
         this.schedule_id = schedule_id;
     }
 
-    public String getTimestamp_start() {
+    public OffsetDateTime getTimestamp_start() {
         return timestamp_start;
     }
 
-    public void setTimestamp_start(String timestamp_start) {
+    public void setTimestamp_start(OffsetDateTime timestamp_start) {
         this.timestamp_start = timestamp_start;
     }
 
-    public String getTimestamp_end() {
+    public OffsetDateTime getTimestamp_end() {
         return timestamp_end;
     }
 
-    public void setTimestamp_end(String timestamp_end) {
+    public void setTimestamp_end(OffsetDateTime timestamp_end) {
         this.timestamp_end = timestamp_end;
     }
 

@@ -40,11 +40,57 @@ public class CsvJsonMapperApplication {
         logger.info("time with system's default offset");
         logger.info(time.format(DateTimeFormatter.ISO_OFFSET_DATE_TIME));
 
+        String dateString  = "2022-05-11T00:30:00.000000+02:00";
+
+//        logger.info(String.valueOf(OffsetDateTime.parse(,
+//                DateTimeFormatter.ISO_OFFSET_DATE_TIME)));
+
+//        OffsetDateTime date = OffsetDateTime.of(LocalDateTime.from(ZonedDateTime.parse(dateString,
+//                DateTimeFormatter.ISO_OFFSET_DATE_TIME)), ZoneOffset.UTC);
+//        logger.info(String.valueOf(date));
+
+//        OffsetDateTime date = OffsetDateTime.from(ZonedDateTime.parse(dateString,
+//                DateTimeFormatter.ISO_OFFSET_DATE_TIME));
+
+//        OffsetDateTime date = OffsetDateTime.from(ZonedDateTime.parse(dateString,
+//                DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSSSSZZZZZ")));
+
+        // Convert or Parse String Date format to desired date pattern string
+//        String date = Instant.parse("2022-05-11T00:30:00.000000+02:00")
+//                .atOffset(ZoneOffset.UTC)
+//                .format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+
+//        String dateTime = String.valueOf(Instant.parse(dateString)
+//                .atOffset(ZoneOffset.UTC)
+//                .format(DateTimeFormatter.ISO_OFFSET_DATE_TIME));
+
+        OffsetDateTime dateTime = OffsetDateTime.parse(dateString);
+//                .atZoneSameInstant(ZoneOffset.UTC)
+//                .format(DateTimeFormatter.ISO_OFFSET_DATE_TIME);
+
+        // to offset the zone
+//        OffsetDateTime date = OffsetDateTime.from(ZonedDateTime.parse(dateString,
+//                DateTimeFormatter.ISO_OFFSET_DATE_TIME).toInstant().atZone(ZoneOffset.UTC));
+        logger.info("printing the date " + dateTime);
+
+        logger.info(String.valueOf(dateTime));
+//        logger.info(String.valueOf(date));
+
+
+
+
+//        String value = "2022-05-11 00:30:00.000000 +02:00";
+//        String dataValue = value.replaceAll("\\s+","");
+//        System.out.println("the value = " +  dataValue.substring(0, 10));
+
         // Loop-Common --> CustomOffsetDateTimeDeserializer
         // value from the CSV can be parsed in the format "2022-05-11T00:30:00.000000+02:00" but not "2022-05-11 00:30:00.000000 +02:00"
-        OffsetDateTime date = OffsetDateTime.of(LocalDateTime.parse("2022-05-11T00:30:00.000000+02:00", DateTimeFormatter.ISO_DATE_TIME), ZoneOffset.UTC);
-        logger.info("printing the date");
-        logger.info(String.valueOf(date));
+//        OffsetDateTime date = OffsetDateTime.of(LocalDateTime.parse("2022-05-11T00:30:00.000000+02:00",
+//                DateTimeFormatter.ISO_DATE_TIME), ZoneOffset.UTC);
+//        logger.info("printing the date");
+//        logger.info(String.valueOf(date));
+
+
 
 
 

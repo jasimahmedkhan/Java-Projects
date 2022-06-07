@@ -24,7 +24,7 @@ public class MappingController {
         return "welcome";
     }
 
-    @RequestMapping(value = "/json-schedule", method = RequestMethod.GET)
+    @GetMapping(value = "/json-schedule")
     public String returnScheduleAsJson(Model model) throws IOException {
         return jsonService.returnJson();
     }
