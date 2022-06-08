@@ -1,38 +1,14 @@
 package com.example.coneva.csvjsonmapper.model;
-import com.example.coneva.csvjsonmapper.utils.JacksonOffsetDateTimeMapper;
 import com.example.coneva.csvjsonmapper.utils.OffsetDateTimeConverter;
-import com.example.coneva.csvjsonmapper.utils.ZoneDateTimeConverter;
-import com.fasterxml.jackson.annotation.JsonFormat;
+import com.example.coneva.csvjsonmapper.utils.OffsetDateTimeToStringConverter;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
-import com.fasterxml.jackson.datatype.jsr310.ser.OffsetDateTimeSerializer;
 import com.opencsv.bean.CsvBindByName;
 import com.opencsv.bean.CsvCustomBindByName;
-import com.opencsv.bean.CsvDate;
-import com.opencsv.bean.CsvDates;
 
 import java.time.OffsetDateTime;
 
 public class Schedule {
-
-//    input attributes:
-
-    //#,id,schedule_id,timestamp_start,timestamp_end,power_value,power_unit,power_direction,power_constraint
-
-
-    // output as JSON
-//    "id": 1367,
-//    "optimizations_id": 1367,
-//    "timestamp": "2022-05-10 15:10:00.000000 +00:00",
-//    "timestamp_start": "2022-05-10 22:00:00.000000 +00:00",
-//    "timestamp_end": "2022-05-11 22:00:00.000000 +00:00",
-//    "site_token": "bdd0a854-d9ee-4b4d-af57-1d945c5ea21f",
-//    "site_type": "EvPark",
-//    "resolution": "QuarterHours",
-//    "portfolio_id": "SeedGreetHilden"
-
 
     /* Think about these whether to add them in the final JSON or not*/
 
@@ -73,21 +49,19 @@ public class Schedule {
     // https://sunitc.dev/2020/05/31/read-csv-file-to-java-bean-using-open-csv/
 
 
-//    @CsvDate(value = "yyyy-MM-dd HH:mm:ss.SZ")
 
-    @JsonSerialize(using = OffsetDateTimeSerializer.class)
+
+//    @JsonSerialize(using = OffsetDateTimeSerializer.class)
+//    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ssZ")
+    @JsonSerialize(converter = OffsetDateTimeToStringConverter.class)
     @JsonProperty("timestamp_start")
-    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSSSSZZZZZ")
     @CsvCustomBindByName (column = "timestamp_start", converter = OffsetDateTimeConverter.class)
-//    @CsvBindByName
     private OffsetDateTime timestamp_start;
 
-//    @CsvDate(value = "yyyy-MM-dd HH:mm:ss.SZ")
-//    @CsvBindByName
-//    @JsonDeserialize(using = JacksonOffsetDateTimeMapper)
-    @JsonSerialize(using = OffsetDateTimeSerializer.class)
+//    @JsonSerialize(using = OffsetDateTimeSerializer.class)
+//    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ssz")
+    @JsonSerialize(converter = OffsetDateTimeToStringConverter.class)
     @JsonProperty("timestamp_end")
-    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSSSSZZZZZ")
     @CsvCustomBindByName(column = "timestamp_end", converter = OffsetDateTimeConverter.class)
     private OffsetDateTime timestamp_end;
 
