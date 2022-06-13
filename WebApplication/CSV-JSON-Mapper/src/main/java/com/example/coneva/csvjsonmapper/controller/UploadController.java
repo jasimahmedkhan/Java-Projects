@@ -8,11 +8,13 @@ import com.opencsv.bean.CsvToBeanBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.print.attribute.standard.Media;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -43,9 +45,9 @@ public class UploadController {
 
 //    @PostMapping("upload-csv-file")
 
-    @RequestMapping(value = "/status", method = RequestMethod.POST)
+    @RequestMapping(value = "/status/{name}", method = RequestMethod.GET, produces = MediaType.TEXT_PLAIN_VALUE)
     @ResponseBody
-    public String showStatus(){
+    public String showStatus(@PathVariable(value = "name", required = false) String name){
         return "Status Working";
     }
 

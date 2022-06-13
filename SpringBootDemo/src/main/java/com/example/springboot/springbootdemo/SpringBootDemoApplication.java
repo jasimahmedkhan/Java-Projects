@@ -10,7 +10,7 @@ public class SpringBootDemoApplication {
 
     public static void main(String[] args) {
         // setting the application properties
-        System.setProperty("server.servlet.context-path", "/demo");
+//        System.setProperty("server.servlet.context-path", "/demo");
         SpringApplication.run(SpringBootDemoApplication.class, args);
     }
 

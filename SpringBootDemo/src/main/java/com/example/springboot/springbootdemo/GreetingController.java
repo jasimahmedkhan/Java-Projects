@@ -15,7 +15,7 @@ public class GreetingController {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
 
-    @GetMapping("/login")
+    @GetMapping("/")
     public String login(@RequestParam(value = "name", defaultValue = "World") String name){
         return "Hello from the other side !!!";
     }

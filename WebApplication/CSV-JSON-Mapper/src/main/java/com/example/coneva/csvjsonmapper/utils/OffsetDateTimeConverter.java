@@ -39,8 +39,8 @@ public class OffsetDateTimeConverter extends AbstractBeanField {
 //                .atOffset(ZoneOffset.UTC)
 //                .format(DateTimeFormatter.ISO_OFFSET_DATE_TIME));
 
-        logger.info("printing the date");
-        logger.info(String.valueOf(date));
+//        logger.info("printing the date");
+//        logger.info(String.valueOf(date));
 
         return date;
 

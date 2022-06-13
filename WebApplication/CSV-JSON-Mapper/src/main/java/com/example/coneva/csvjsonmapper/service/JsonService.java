@@ -2,6 +2,7 @@ package com.example.coneva.csvjsonmapper.service;
 import com.example.coneva.csvjsonmapper.controller.UploadController;
 import com.example.coneva.csvjsonmapper.model.Schedule;
 import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -32,7 +33,9 @@ public class JsonService {
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new JavaTimeModule());
-        mapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
+        mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
+        mapper.configure(DeserializationFeature.ADJUST_DATES_TO_CONTEXT_TIME_ZONE, false);
+//        mapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
 
 //        ObjectMapper mapper =  JsonMapper.builder()
 //                .addModule(new JavaTimeModule())
