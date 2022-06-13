@@ -3,6 +3,6 @@
     <title> Greetings !!</title>
 </head>
 <body>
-Your new Welcome Page.. Once again Welcome  ${name} !!
+Welcome Page For the Web Application !!
 </body>
 </html>

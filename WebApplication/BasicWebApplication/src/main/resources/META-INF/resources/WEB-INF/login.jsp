@@ -1,8 +1,7 @@
-<html>
-<head>
-    <title> Yahoo !!</title>
-</head>
-<body>
+<%@ include file="common/header.jsp"%>
+<%@ include file="common/navigation.jsp"%>
+
+
 <span style="color: red">${errorMessage}</span>
 <form method="post">
     Name:
@@ -16,6 +15,4 @@
     <input type="submit" />
 </form>
 
-<%--My First JSP!! Welcome ${name} !!--%>
-</body>
-</html>
+<%@ include file="common/footer.jsp"%>

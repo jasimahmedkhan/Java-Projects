@@ -1,12 +1,9 @@
-<html>
-<head>
-    <title> Welcome !!</title>
-</head>
-<body>
+<%@ include file="common/header.jsp"%>
+<%@ include file="common/navigation.jsp"%>
+
+
 <form method="get">
     Welcome !!! ${name} !!! <a href="list-todos"> Click here </a> to manage your todos  !!!
 </form>
 
-<%--My First JSP!! Welcome ${name} !!--%>
-</body>
-</html>
+<%@ include file="common/footer.jsp"%>

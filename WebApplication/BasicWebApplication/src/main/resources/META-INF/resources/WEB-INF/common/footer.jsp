@@ -1,12 +1,16 @@
-<nav role="navigation" class="navbar navbar-default">
-    <div class="">
-        <a href="http://www.google.com" class="navbar-brand">Google</a>
-    </div>
-    <div class="navbar-collapse">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="/login">Home</a></li>
-            <li><a href="/list-todos">Todos</a></li>
 
-        </ul>
-    </div>
-</nav>
+<%--My First JSP!! Welcome ${name} !!--%>
+
+<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="webjars/bootstrap-datepicker/1.0.1/js/bootstrap-datepicker.js"></script>
+
+<script>
+    $('#targetDate').datepicker({
+        format : 'dd/mm/yyyy'
+    });
+</script>
+
+</body>
+
+</html>
