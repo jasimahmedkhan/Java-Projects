@@ -29,13 +29,6 @@ public class TodoController {
         binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, false));
     }
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String showLoginPage(ModelMap model){
-        model.put("name", "jasim");
-        return "welcome";
-    }
-
-
 
     @RequestMapping(value = "/list-todos", method = RequestMethod.GET)
     public String showTodoList(ModelMap model){

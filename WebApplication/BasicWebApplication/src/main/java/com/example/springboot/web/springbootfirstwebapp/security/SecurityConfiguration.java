@@ -1,4 +1,4 @@
-package com.example.springboot.web.springbootfirstwebapp.web.security;
+package com.example.springboot.web.springbootfirstwebapp.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +19,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .passwordEncoder(NoOpPasswordEncoder.getInstance())
                 .withUser("jasim").password("ahmed")
                 .roles("USER", "ADMIN");
-
     }
 
 
